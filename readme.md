@@ -10,9 +10,9 @@
   - [IoTC : デバイステンプレートを作成](#1-2)
   - [IoTC : 測定にメッセージを追加](#1-3)
   - [IoTC : デバイスを追加](#1-4)
-  - ReButton : 工場出荷時設定にリセット
-  - ReButton : 接続情報を設定
-  - ReButton+ : ボタンをクリックしてIoT Centralに通知
+  - [ReButton : 工場出荷時設定にリセット](#1-5)
+  - [ReButton : 接続情報を設定](#1-6)
+  - [ReButton+ : ボタンをクリックしてIoT Centralに通知](#1-7)
 - [2章 測定項目を増やす](#2-0)
   - IoTC : 測定項目にクリック種類を追加
   - IoTC : 測定項目にバッテリー電圧を追加
@@ -147,6 +147,42 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。Azure IoT Centr
 メモ帳などにコピーしておいてください。
 
 ![19](img/19.png)
+
+### <a name="1-5">ReButton : 工場出荷時設定にリセット
+
+![21](img/21.png)
+
+![20](img/20.png)
+
+### <a name="1-6">ReButton : 接続情報を設定
+
+![22](img/22.png)
+
+![23](img/23.png)
+
+![24](img/24.png)
+
+![25](img/25.png)
+
+![26](img/26.png)
+
+![27](img/27.png)
+
+![28](img/28.png)
+
+![29](img/29.png)
+
+![30](img/30.png)
+
+### <a name="1-7">ReButton+ : ボタンをクリックしてIoT Centralに通知
+
+![31](img/31.png)
+
+![32](img/32.png)
+
+![22](img/22.png)
+
+![33](img/33.png)
 
 ## <a name="2-0">2章 測定項目を増やす
 
