@@ -14,15 +14,13 @@
   - [ReButton : 接続情報を設定](#1-6)
   - [ReButton+ : ボタンをクリックしてIoT Centralに通知](#1-7)
 - [2章 測定項目を増やす](#2-0)
-  - IoTC : 測定項目にクリック種類を追加
-  - IoTC : 測定項目にバッテリー電圧を追加
-  - ReButton+ : ボタンをクリックしてIoT Centralに通知
+  - [IoTC : 測定項目にクリック種類を追加](#2-1)
+  - [IoTC : 測定項目にバッテリー電圧を追加](#2-2)
+  - [ReButton+ : ボタンをクリックしてIoT Centralに通知](#2-3)
 - [3章 ボタンクリックをSMS通知する](#3-0)
   - Azure : アクショングループを作成
   - IoTC : ルールを追加
   - ReButton+ : ボタンをクリックしてSMS通知
-- ~~4章 センサーを追加する~~
-- ~~5章 ファームウェアをカスタマイズする~~
 - [後始末](#F-0)
   - ReButton : 工場出荷時設定にリセット
   - IoTC : アプリケーションを削除
@@ -91,7 +89,6 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。Azure IoT Centr
 左の`デバイスエクスプローラー`をクリックしてください。  
 `ReButton`という名前のデバイステンプレートが表示されて、シミュレート済みデバイスが1つ含まれていれば成功です。
 
-![9](img/9.png)  
 ![10](img/10.png)
 
 ### <a name="1-3">IoTC : 測定にメッセージを追加
@@ -185,6 +182,38 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。Azure IoT Centr
 ![33](img/33.png)
 
 ## <a name="2-0">2章 測定項目を増やす
+
+### <a name="2-1">IoTC : 測定項目にクリック種類を追加
+
+![34](img/34.png)
+
+![35](img/35.png)
+
+![36](img/36.png)
+
+![37](img/37.png)
+
+![38](img/38.png)
+
+### <a name="2-2">IoTC : 測定項目にバッテリー電圧を追加
+
+![39](img/39.png)
+
+![40](img/40.png)
+
+![41](img/41.png)
+
+![42](img/42.png)
+
+### <a name="2-3">ReButton+ : ボタンをクリックしてIoT Centralに通知
+
+![43](img/43.png)
+
+![44](img/44.png)
+
+![45](img/45.png)
+
+![46](img/46.png)
 
 ## <a name="3-0">3章 ボタンクリックをSMS通知する
 
