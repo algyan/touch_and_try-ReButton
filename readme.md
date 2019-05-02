@@ -18,9 +18,9 @@
   - [IoTC : 測定項目にバッテリー電圧を追加](#2-2)
   - [ReButton+ : ボタンをクリックしてIoT Centralに通知](#2-3)
 - [3章 ボタンクリックをSMS通知する](#3-0)
-  - Azure : アクショングループを作成
-  - IoTC : ルールを追加
-  - ReButton+ : ボタンをクリックしてSMS通知
+  - [Azure : アクショングループを作成](#3-1)
+  - [IoTC : ルールを追加](#3-2)
+  - [ReButton+ : ボタンをクリックしてSMS通知](#3-3)
 - [後始末](#F-0)
   - ReButton : 工場出荷時設定にリセット
   - IoTC : アプリケーションを削除
@@ -29,11 +29,7 @@
 
 ## <a name="S-0">タッチアンドトライのゴール
 
-WIP
-
 ## <a name="1-0">1章 ボタンクリックをIoT Centralへ伝える
-
-WIP
 
 ### <a name="1-1">IoTC :  アプリケーションを作成
 
@@ -217,5 +213,38 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。Azure IoT Centr
 
 ## <a name="3-0">3章 ボタンクリックをSMS通知する
 
-## <a name="F-0">後始末
+### <a name="3-1">Azure : アクショングループを作成
 
+![47](img/47.png)
+
+![48](img/48.png)
+
+![49](img/49.png)
+
+![50](img/50.png)
+
+![51](img/51.png)
+
+![52](img/52.png)
+
+### <a name="3-2">IoTC : ルールを追加
+
+![53](img/53.png)
+
+![54](img/54.png)
+
+![55](img/55.png)
+
+![56](img/56.png)
+
+![57](img/57.png)
+
+![58](img/58.png)
+
+### <a name="3-3">ReButton+ : ボタンをクリックしてSMS通知
+
+![59](img/59.png)
+
+![60](img/60.png)
+
+## <a name="F-0">後始末
