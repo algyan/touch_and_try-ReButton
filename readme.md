@@ -1,153 +1,153 @@
-# ƒ^ƒbƒ`ƒAƒ“ƒhƒgƒ‰ƒC ~ ReButton ~
+# ã‚¿ãƒƒãƒã‚¢ãƒ³ãƒ‰ãƒˆãƒ©ã‚¤ ~ ReButton ~
 
 ---
 
-–ÚŽŸ
+ç›®æ¬¡
 
-- [ƒ^ƒbƒ`ƒAƒ“ƒhƒgƒ‰ƒC‚ÌƒS[ƒ‹](#S-0)
-- [1Í ƒ{ƒ^ƒ“ƒNƒŠƒbƒN‚ðIoT Central‚Ö“`‚¦‚é](#1-0)
-  - [IoTC :  ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðì¬](#1-1)
-  - [IoTC : ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ðì¬](#1-2)
-  - [IoTC : ‘ª’è‚ÉƒƒbƒZ[ƒW‚ð’Ç‰Á](#1-3)
-  - [IoTC : ƒfƒoƒCƒX‚ð’Ç‰Á](#1-4)
-  - [ReButton : Hêo‰×ŽžÝ’è‚ÉƒŠƒZƒbƒg](#1-5)
-  - [ReButton : Ú‘±î•ñ‚ðÝ’è](#1-6)
-  - [ReButton+ : ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚ÄIoT Central‚É’Ê’m](#1-7)
-- [2Í ‘ª’è€–Ú‚ð‘‚â‚·](#2-0)
-  - [IoTC : ‘ª’è€–Ú‚ÉƒNƒŠƒbƒNŽí—Þ‚ð’Ç‰Á](#2-1)
-  - [IoTC : ‘ª’è€–Ú‚ÉƒoƒbƒeƒŠ[“dˆ³‚ð’Ç‰Á](#2-2)
-  - [ReButton+ : ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚ÄIoT Central‚É’Ê’m](#2-3)
-- [3Í ƒ{ƒ^ƒ“ƒNƒŠƒbƒN‚ðSMS’Ê’m‚·‚é](#3-0)
-  - [Azure : ƒAƒNƒVƒ‡ƒ“ƒOƒ‹[ƒv‚ðì¬](#3-1)
-  - [IoTC : ƒ‹[ƒ‹‚ð’Ç‰Á](#3-2)
-  - [ReButton+ : ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚ÄSMS’Ê’m](#3-3)
-- [ŒãŽn––](#F-0)
-  - ReButton : Hêo‰×ŽžÝ’è‚ÉƒŠƒZƒbƒg
-  - IoTC : ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðíœ
-  - Azure : ƒAƒNƒVƒ‡ƒ“ƒOƒ‹[ƒv‚ðíœ
+- [ã‚¿ãƒƒãƒã‚¢ãƒ³ãƒ‰ãƒˆãƒ©ã‚¤ã®ã‚´ãƒ¼ãƒ«](#S-0)
+- [1ç«  ãƒœã‚¿ãƒ³ã‚¯ãƒªãƒƒã‚¯ã‚’IoT Centralã¸ä¼ãˆã‚‹](#1-0)
+  - [IoTC :  ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ä½œæˆ](#1-1)
+  - [IoTC : ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã‚’ä½œæˆ](#1-2)
+  - [IoTC : æ¸¬å®šã«ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¿½åŠ ](#1-3)
+  - [IoTC : ãƒ‡ãƒã‚¤ã‚¹ã‚’è¿½åŠ ](#1-4)
+  - [ReButton : å·¥å ´å‡ºè·æ™‚è¨­å®šã«ãƒªã‚»ãƒƒãƒˆ](#1-5)
+  - [ReButton : æŽ¥ç¶šæƒ…å ±ã‚’è¨­å®š](#1-6)
+  - [ReButton+ : ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦IoT Centralã«é€šçŸ¥](#1-7)
+- [2ç«  æ¸¬å®šé …ç›®ã‚’å¢—ã‚„ã™](#2-0)
+  - [IoTC : æ¸¬å®šé …ç›®ã«ã‚¯ãƒªãƒƒã‚¯ç¨®é¡žã‚’è¿½åŠ ](#2-1)
+  - [IoTC : æ¸¬å®šé …ç›®ã«ãƒãƒƒãƒ†ãƒªãƒ¼é›»åœ§ã‚’è¿½åŠ ](#2-2)
+  - [ReButton+ : ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦IoT Centralã«é€šçŸ¥](#2-3)
+- [3ç«  ãƒœã‚¿ãƒ³ã‚¯ãƒªãƒƒã‚¯ã‚’SMSé€šçŸ¥ã™ã‚‹](#3-0)
+  - [Azure : ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆ](#3-1)
+  - [IoTC : ãƒ«ãƒ¼ãƒ«ã‚’è¿½åŠ ](#3-2)
+  - [ReButton+ : ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦SMSé€šçŸ¥](#3-3)
+- [å¾Œå§‹æœ«](#F-0)
+  - ReButton : å·¥å ´å‡ºè·æ™‚è¨­å®šã«ãƒªã‚»ãƒƒãƒˆ
+  - IoTC : ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å‰Šé™¤
+  - Azure : ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã‚°ãƒ«ãƒ¼ãƒ—ã‚’å‰Šé™¤
 ---
 
-## <a name="S-0">ƒ^ƒbƒ`ƒAƒ“ƒhƒgƒ‰ƒC‚ÌƒS[ƒ‹
+## <a name="S-0">ã‚¿ãƒƒãƒã‚¢ãƒ³ãƒ‰ãƒˆãƒ©ã‚¤ã®ã‚´ãƒ¼ãƒ«
 
-## <a name="1-0">1Í ƒ{ƒ^ƒ“ƒNƒŠƒbƒN‚ðIoT Central‚Ö“`‚¦‚é
+## <a name="1-0">1ç«  ãƒœã‚¿ãƒ³ã‚¯ãƒªãƒƒã‚¯ã‚’IoT Centralã¸ä¼ãˆã‚‹
 
-### <a name="1-1">IoTC :  ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðì¬
+### <a name="1-1">IoTC :  ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ä½œæˆ
 
-> Azure IoT Central‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðì¬‚µ‚Ü‚·B
+> Azure IoT Centralã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ä½œæˆã—ã¾ã™ã€‚
 
-Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Central‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ªˆê——•\Ž¦‚³‚ê‚Ü‚·B  
-¶ã‚É‚ ‚éA`V‚µ‚¢ƒAƒvƒŠƒP[ƒVƒ‡ƒ“`‚ðƒNƒŠƒbƒN‚µ‚ÄAƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðì¬‚µ‚Ä‚­‚¾‚³‚¢B
+Webãƒ–ãƒ©ã‚¦ã‚¶ã§`https://apps.azureiotcentral.com`ã‚’é–‹ã„ã¦ãã ã•ã„ã€‚Azure IoT Centralã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãŒä¸€è¦§è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚  
+å·¦ä¸Šã«ã‚ã‚‹ã€`æ–°ã—ã„ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ä½œæˆã—ã¦ãã ã•ã„ã€‚
 
 ![1](img/1.png)
 
-ŽŸ‚ÉAƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ìì¬‚É•K—v‚Èî•ñ‚ðÝ’è‚µ‚Ü‚·B  
-‰º•\‚Ì‚Æ‚¨‚èÝ’è‚µ‚ÄA`ì¬`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+æ¬¡ã«ã€ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®ä½œæˆã«å¿…è¦ãªæƒ…å ±ã‚’è¨­å®šã—ã¾ã™ã€‚  
+ä¸‹è¡¨ã®ã¨ãŠã‚Šè¨­å®šã—ã¦ã€`ä½œæˆ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
-|€–Ú–¼|’l|
+|é …ç›®å|å€¤|
 |:--|:--|
-|Žx•¥‚¢ƒvƒ‰ƒ“|]—Ê‰Û‹à§|
-|ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒeƒ“ƒvƒŒ[ƒg|ƒJƒXƒ^ƒ€ƒAƒvƒŠƒP[ƒVƒ‡ƒ“|
-|ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼|==”CˆÓ==|
-|URL|==”CˆÓ==|
-|ƒfƒBƒŒƒNƒgƒŠ|==”CˆÓ==|
-|AzureƒTƒuƒXƒNƒŠƒvƒVƒ‡ƒ“|==”CˆÓ==|
-|ƒŠ[ƒWƒ‡ƒ“|West US|
+|æ”¯æ‰•ã„ãƒ—ãƒ©ãƒ³|å¾“é‡èª²é‡‘åˆ¶|
+|ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ|ã‚«ã‚¹ã‚¿ãƒ ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³|
+|ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å|==ä»»æ„==|
+|URL|==ä»»æ„==|
+|ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª|==ä»»æ„==|
+|Azureã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³|==ä»»æ„==|
+|ãƒªãƒ¼ã‚¸ãƒ§ãƒ³|West US|
 
 ![2](img/2.png)  
 ![3](img/3.png)
 
-‚µ‚Î‚ç‚­‚·‚é‚ÆAƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ªì¬‚³‚ê‚ÄAƒ_ƒbƒVƒ…ƒ{[ƒh‚ª•\Ž¦‚³‚ê‚Ü‚·B  
-‰©F‚¢ƒ|ƒbƒvƒAƒbƒv‚ª•\Ž¦‚³‚ê‚Ä‚¢‚éê‡‚ÍA`—¹‰ð‚µ‚Ü‚µ‚½`‚ðƒNƒŠƒbƒN‚µ‚ÄA•\Ž¦‚ðÁ‚µ‚Ä‚­‚¾‚³‚¢B
+ã—ã°ã‚‰ãã™ã‚‹ã¨ã€ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãŒä½œæˆã•ã‚Œã¦ã€ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚  
+é»„è‰²ã„ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹å ´åˆã¯ã€`äº†è§£ã—ã¾ã—ãŸ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€è¡¨ç¤ºã‚’æ¶ˆã—ã¦ãã ã•ã„ã€‚
 
 ![4](img/4.png)
 
-ŽŸ‚Ì‰æ‘œ‚Ì‚Æ‚¨‚è•\Ž¦‚³‚ê‚Ä‚¢‚ê‚Î¬Œ÷‚Å‚·B
+æ¬¡ã®ç”»åƒã®ã¨ãŠã‚Šè¡¨ç¤ºã•ã‚Œã¦ã„ã‚Œã°æˆåŠŸã§ã™ã€‚
 
 ![5](img/5.png)
 
-### <a name="1-2">IoTC : ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ðì¬
+### <a name="1-2">IoTC : ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã‚’ä½œæˆ
 
-> ì¬‚µ‚½ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÉAReButton‚ÌƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ð’Ç‰Á‚µ‚Ü‚·B
+> ä½œæˆã—ãŸã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã«ã€ReButtonã®ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã‚’è¿½åŠ ã—ã¾ã™ã€‚
 
-¶‚Ì`ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢BƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚Ìˆê——‚ª•\Ž¦‚³‚ê‚Ü‚·B  
-‚±‚±‚ÅA‰Eã‚Ì`+`ƒ}[ƒN‚ðƒNƒŠƒbƒN‚µ‚ÄAƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ðì¬‚µ‚Ä‚­‚¾‚³‚¢B
+å·¦ã®`ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®ä¸€è¦§ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚  
+ã“ã“ã§ã€å³ä¸Šã®`+`ãƒžãƒ¼ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã‚’ä½œæˆã—ã¦ãã ã•ã„ã€‚
 
 ![6](img/6.png)
 
-ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ÌŽí—Þ‚Í`ƒJƒXƒ^ƒ€`‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®ç¨®é¡žã¯`ã‚«ã‚¹ã‚¿ãƒ `ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚
 
 ![7](img/7.png)
 
-ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚Ì–¼‘O‚É`ReButton`‚Æ“ü—Í‚µ‚ÄA`ì¬`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®åå‰ã«`ReButton`ã¨å…¥åŠ›ã—ã¦ã€`ä½œæˆ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
 ![8](img/8.png)
 
-¶‚Ì`ƒfƒoƒCƒXƒGƒNƒXƒvƒ[ƒ‰[`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B  
-`ReButton`‚Æ‚¢‚¤–¼‘O‚ÌƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ª•\Ž¦‚³‚ê‚ÄAƒVƒ~ƒ…ƒŒ[ƒgÏ‚ÝƒfƒoƒCƒX‚ª1‚ÂŠÜ‚Ü‚ê‚Ä‚¢‚ê‚Î¬Œ÷‚Å‚·B
+å·¦ã®`ãƒ‡ãƒã‚¤ã‚¹ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ©ãƒ¼`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚  
+`ReButton`ã¨ã„ã†åå‰ã®ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆãŒè¡¨ç¤ºã•ã‚Œã¦ã€ã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ãƒˆæ¸ˆã¿ãƒ‡ãƒã‚¤ã‚¹ãŒ1ã¤å«ã¾ã‚Œã¦ã„ã‚Œã°æˆåŠŸã§ã™ã€‚
 
 ![10](img/10.png)
 
-### <a name="1-3">IoTC : ‘ª’è‚ÉƒƒbƒZ[ƒW‚ð’Ç‰Á
+### <a name="1-3">IoTC : æ¸¬å®šã«ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¿½åŠ 
 
-> ReButton‚ÌƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ÉAReButton‚©‚ç‘—‚ç‚ê‚Ä‚­‚éî•ñ‚ð’è‹`‚µ‚Ü‚·B
+> ReButtonã®ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã«ã€ReButtonã‹ã‚‰é€ã‚‰ã‚Œã¦ãã‚‹æƒ…å ±ã‚’å®šç¾©ã—ã¾ã™ã€‚
 
-¶‚Ì`ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg`‚ðƒNƒŠƒbƒN‚µ‚ÄA`ReButton`ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+å·¦ã®`ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€`ReButton`ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
 ![11](img/11.png)
 
-`V‚µ‚¢‘ª’è`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B‘ª’è‚Ì’Ç‰Á‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B
+`æ–°ã—ã„æ¸¬å®š`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚æ¸¬å®šã®è¿½åŠ ç”»é¢ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
 
 ![12](img/12.png)
 
-‘ª’è‚ÌŽí—Þ‚ª3‚Â•\Ž¦‚³‚ê‚Ä‚¢‚é‚Ì‚ÅA‚»‚Ì’†‚©‚ç`ƒCƒxƒ“ƒg`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+æ¸¬å®šã®ç¨®é¡žãŒ3ã¤è¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã®ã§ã€ãã®ä¸­ã‹ã‚‰`ã‚¤ãƒ™ãƒ³ãƒˆ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
 ![13](img/13.png)
 
-ŽŸ‚ÉA‘ª’è‚Ì’Ç‰Á‚É•K—v‚Èî•ñ‚ðÝ’è‚µ‚Ü‚·B  
-‰º•\‚Ì‚Æ‚¨‚èÝ’è‚µ‚ÄA`•Û‘¶`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+æ¬¡ã«ã€æ¸¬å®šã®è¿½åŠ ã«å¿…è¦ãªæƒ…å ±ã‚’è¨­å®šã—ã¾ã™ã€‚  
+ä¸‹è¡¨ã®ã¨ãŠã‚Šè¨­å®šã—ã¦ã€`ä¿å­˜`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
-|€–Ú–¼|’l|
+|é …ç›®å|å€¤|
 |:--|:--|
-|Display Name|ƒƒbƒZ[ƒW|
-|ƒtƒB[ƒ‹ƒh–¼|message|
-|Šù’è‚Ìd—v“x|î•ñ|
+|Display Name|ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸|
+|ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å|message|
+|æ—¢å®šã®é‡è¦åº¦|æƒ…å ±|
 
 ![14](img/14.png)
 
-ŽŸ‚Ì‰æ‘œ‚Ì‚Æ‚¨‚èAƒCƒxƒ“ƒg‚É`ƒƒbƒZ[ƒW`‚ª•\Ž¦‚³‚ê‚Ä‚¢‚ê‚Î¬Œ÷‚Å‚·B
+æ¬¡ã®ç”»åƒã®ã¨ãŠã‚Šã€ã‚¤ãƒ™ãƒ³ãƒˆã«`ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸`ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚Œã°æˆåŠŸã§ã™ã€‚
 
 ![15](img/15.png)
 
-### <a name="1-4">IoTC : ƒfƒoƒCƒX‚ð’Ç‰Á
+### <a name="1-4">IoTC : ãƒ‡ãƒã‚¤ã‚¹ã‚’è¿½åŠ 
 
-> ReButton‚ÌƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ÉAReButtonƒfƒoƒCƒX‚ð’Ç‰Á‚µ‚Ü‚·B
+> ReButtonã®ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã«ã€ReButtonãƒ‡ãƒã‚¤ã‚¹ã‚’è¿½åŠ ã—ã¾ã™ã€‚
 
-¶‚Ì`ƒfƒoƒCƒXƒGƒNƒXƒvƒ[ƒ‰[`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B`ReButton`ƒfƒoƒCƒXƒeƒ“ƒvƒŒ[ƒg‚ÉŠÜ‚Ü‚ê‚Ä‚¢‚éƒfƒoƒCƒX‚ªˆê——•\Ž¦‚³‚ê‚Ü‚·B  
-‚±‚±‚ÅAã‚É‚ ‚é`+`ƒ}[ƒN‚ðƒNƒŠƒbƒN‚µ‚ÄA`ŽÀÛ`‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B
+å·¦ã®`ãƒ‡ãƒã‚¤ã‚¹ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ©ãƒ¼`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚`ReButton`ãƒ‡ãƒã‚¤ã‚¹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã«å«ã¾ã‚Œã¦ã„ã‚‹ãƒ‡ãƒã‚¤ã‚¹ãŒä¸€è¦§è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚  
+ã“ã“ã§ã€ä¸Šã«ã‚ã‚‹`+`ãƒžãƒ¼ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€`å®Ÿéš›`ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚
 
 ![16](img/16.png)
 
-`ƒfƒoƒCƒX–¼'‚É==”CˆÓ==‚Ì–¼‘O‚ð“ü—Í‚µ‚ÄA`ì¬`‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+`ãƒ‡ãƒã‚¤ã‚¹å'ã«==ä»»æ„==ã®åå‰ã‚’å…¥åŠ›ã—ã¦ã€`ä½œæˆ`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
 
 ![17](img/17.png)
 
-‚·‚é‚ÆAì¬‚µ‚½ReButtonƒfƒoƒCƒX‚ª•\Ž¦‚³‚ê‚Ü‚·B  
-‰Eã‚Ì`Ú‘±`‚ðƒNƒŠƒbƒN‚µ‚ÄA‚±‚ÌƒfƒoƒCƒX‚ÌÚ‘±î•ñ‚ð•\Ž¦‚µ‚Ä‚­‚¾‚³‚¢B
+ã™ã‚‹ã¨ã€ä½œæˆã—ãŸReButtonãƒ‡ãƒã‚¤ã‚¹ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚  
+å³ä¸Šã®`æŽ¥ç¶š`ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€ã“ã®ãƒ‡ãƒã‚¤ã‚¹ã®æŽ¥ç¶šæƒ…å ±ã‚’è¡¨ç¤ºã—ã¦ãã ã•ã„ã€‚
 
 ![18](img/18.png)
 
-‚±‚±‚Å•\Ž¦‚³‚ê‚Ä‚¢‚é`ƒXƒR[ƒvID`,`ƒfƒoƒCƒXID`,`SASŽåƒL[`‚ÍAŒã‚ÅReButton‚ÉÝ’è‚µ‚Ü‚·B  
-ƒƒ‚’ ‚È‚Ç‚ÉƒRƒs[‚µ‚Ä‚¨‚¢‚Ä‚­‚¾‚³‚¢B
+ã“ã“ã§è¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹`ã‚¹ã‚³ãƒ¼ãƒ—ID`,`ãƒ‡ãƒã‚¤ã‚¹ID`,`SASä¸»ã‚­ãƒ¼`ã¯ã€å¾Œã§ReButtonã«è¨­å®šã—ã¾ã™ã€‚  
+ãƒ¡ãƒ¢å¸³ãªã©ã«ã‚³ãƒ”ãƒ¼ã—ã¦ãŠã„ã¦ãã ã•ã„ã€‚
 
 ![19](img/19.png)
 
-### <a name="1-5">ReButton : Hêo‰×ŽžÝ’è‚ÉƒŠƒZƒbƒg
+### <a name="1-5">ReButton : å·¥å ´å‡ºè·æ™‚è¨­å®šã«ãƒªã‚»ãƒƒãƒˆ
 
 ![21](img/21.png)
 
 ![20](img/20.png)
 
-### <a name="1-6">ReButton : Ú‘±î•ñ‚ðÝ’è
+### <a name="1-6">ReButton : æŽ¥ç¶šæƒ…å ±ã‚’è¨­å®š
 
 ![22](img/22.png)
 
@@ -167,7 +167,7 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![30](img/30.png)
 
-### <a name="1-7">ReButton+ : ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚ÄIoT Central‚É’Ê’m
+### <a name="1-7">ReButton+ : ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦IoT Centralã«é€šçŸ¥
 
 ![31](img/31.png)
 
@@ -177,9 +177,9 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![33](img/33.png)
 
-## <a name="2-0">2Í ‘ª’è€–Ú‚ð‘‚â‚·
+## <a name="2-0">2ç«  æ¸¬å®šé …ç›®ã‚’å¢—ã‚„ã™
 
-### <a name="2-1">IoTC : ‘ª’è€–Ú‚ÉƒNƒŠƒbƒNŽí—Þ‚ð’Ç‰Á
+### <a name="2-1">IoTC : æ¸¬å®šé …ç›®ã«ã‚¯ãƒªãƒƒã‚¯ç¨®é¡žã‚’è¿½åŠ 
 
 ![34](img/34.png)
 
@@ -191,7 +191,7 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![38](img/38.png)
 
-### <a name="2-2">IoTC : ‘ª’è€–Ú‚ÉƒoƒbƒeƒŠ[“dˆ³‚ð’Ç‰Á
+### <a name="2-2">IoTC : æ¸¬å®šé …ç›®ã«ãƒãƒƒãƒ†ãƒªãƒ¼é›»åœ§ã‚’è¿½åŠ 
 
 ![39](img/39.png)
 
@@ -201,7 +201,7 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![42](img/42.png)
 
-### <a name="2-3">ReButton+ : ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚ÄIoT Central‚É’Ê’m
+### <a name="2-3">ReButton+ : ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦IoT Centralã«é€šçŸ¥
 
 ![43](img/43.png)
 
@@ -211,9 +211,9 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![46](img/46.png)
 
-## <a name="3-0">3Í ƒ{ƒ^ƒ“ƒNƒŠƒbƒN‚ðSMS’Ê’m‚·‚é
+## <a name="3-0">3ç«  ãƒœã‚¿ãƒ³ã‚¯ãƒªãƒƒã‚¯ã‚’SMSé€šçŸ¥ã™ã‚‹
 
-### <a name="3-1">Azure : ƒAƒNƒVƒ‡ƒ“ƒOƒ‹[ƒv‚ðì¬
+### <a name="3-1">Azure : ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆ
 
 ![47](img/47.png)
 
@@ -227,7 +227,7 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![52](img/52.png)
 
-### <a name="3-2">IoTC : ƒ‹[ƒ‹‚ð’Ç‰Á
+### <a name="3-2">IoTC : ãƒ«ãƒ¼ãƒ«ã‚’è¿½åŠ 
 
 ![53](img/53.png)
 
@@ -241,10 +241,10 @@ Webƒuƒ‰ƒEƒU‚Å`https://apps.azureiotcentral.com`‚ðŠJ‚¢‚Ä‚­‚¾‚³‚¢BAzure IoT Centr
 
 ![58](img/58.png)
 
-### <a name="3-3">ReButton+ : ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚ÄSMS’Ê’m
+### <a name="3-3">ReButton+ : ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦SMSé€šçŸ¥
 
 ![59](img/59.png)
 
 ![60](img/60.png)
 
-## <a name="F-0">ŒãŽn––
+## <a name="F-0">å¾Œå§‹æœ«
