@@ -28,11 +28,11 @@
 
 ---
 
-## <a name="S-0">タッチアンドトライのゴール
+## <a name="S-0">タッチアンドトライのゴール</a>
 
-## <a name="1-0">1章 ボタンクリックをIoT Centralへ伝える
+## <a name="1-0">1章 ボタンクリックをIoT Centralへ伝える</a>
 
-### <a name="1-1">IoTC :  アプリケーションを作成
+### <a name="1-1">IoTC :  アプリケーションを作成</a>
 
 > Azure IoT Centralのアプリケーションを作成します。
 
@@ -69,7 +69,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ---
 
-### <a name="1-2">IoTC : デバイステンプレートを作成
+### <a name="1-2">IoTC : デバイステンプレートを作成</a>
 
 > 作成したアプリケーションに、ReButtonのデバイステンプレートを追加します。
 
@@ -93,7 +93,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ---
 
-### <a name="1-3">IoTC : 測定にメッセージを追加
+### <a name="1-3">IoTC : 測定にメッセージを追加</a>
 
 > ReButtonのデバイステンプレートに、ReButtonから送られてくる情報を定義します。
 
@@ -127,7 +127,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ---
 
-### <a name="1-4">IoTC : デバイスを追加
+### <a name="1-4">IoTC : デバイスを追加</a>
 
 > ReButtonのデバイステンプレートに、ReButtonデバイスを追加します。
 
@@ -152,13 +152,13 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ---
 
-### <a name="1-5">ReButton : 工場出荷時設定にリセット
+### <a name="1-5">ReButton : 工場出荷時設定にリセット</a>
 
 ![21](img/21.png)
 
 ![20](img/20.png)
 
-### <a name="1-6">ReButton : 接続情報を設定
+### <a name="1-6">ReButton : 接続情報を設定</a>
 
 ![22](img/22.png)
 
@@ -178,7 +178,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![30](img/30.png)
 
-### <a name="1-7">ReButton+ : ボタンをクリックしてIoT Centralに通知
+### <a name="1-7">ReButton+ : ボタンをクリックしてIoT Centralに通知</a>
 
 ![31](img/31.png)
 
@@ -188,9 +188,9 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![33](img/33.png)
 
-## <a name="2-0">2章 測定項目を増やす
+## <a name="2-0">2章 測定項目を増やす</a>
 
-### <a name="2-1">IoTC : 測定項目にクリック種類を追加
+### <a name="2-1">IoTC : 測定項目にクリック種類を追加</a>
 
 ![34](img/34.png)
 
@@ -202,7 +202,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![38](img/38.png)
 
-### <a name="2-2">IoTC : 測定項目にバッテリー電圧を追加
+### <a name="2-2">IoTC : 測定項目にバッテリー電圧を追加</a>
 
 ![39](img/39.png)
 
@@ -212,7 +212,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![42](img/42.png)
 
-### <a name="2-3">ReButton+ : ボタンをクリックしてIoT Centralに通知
+### <a name="2-3">ReButton+ : ボタンをクリックしてIoT Centralに通知</a>
 
 ![43](img/43.png)
 
@@ -222,9 +222,9 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![46](img/46.png)
 
-## <a name="3-0">3章 ボタンクリックをSMS通知する
+## <a name="3-0">3章 ボタンクリックをSMS通知する</a>
 
-### <a name="3-1">Azure : アクショングループを作成
+### <a name="3-1">Azure : アクショングループを作成</a>
 
 ![47](img/47.png)
 
@@ -238,7 +238,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![52](img/52.png)
 
-### <a name="3-2">IoTC : ルールを追加
+### <a name="3-2">IoTC : ルールを追加</a>
 
 ![53](img/53.png)
 
@@ -252,10 +252,10 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ![58](img/58.png)
 
-### <a name="3-3">ReButton+ : ボタンをクリックしてSMS通知
+### <a name="3-3">ReButton+ : ボタンをクリックしてSMS通知</a>
 
 ![59](img/59.png)
 
 ![60](img/60.png)
 
-## <a name="F-0">後始末
+## <a name="F-0">後始末</a>
