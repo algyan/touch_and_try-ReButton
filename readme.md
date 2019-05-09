@@ -169,7 +169,7 @@ Webブラウザで`https://apps.azureiotcentral.com`を開いてください。U
 
 ---
 
-### <a name="1-6">ReButton : 接続情報を設定
+### <a name="1-6">ReButton : 接続情報を設定</a>
 
 > ReButtonを`Access Pointモード`で起動して、パソコンからReButtonに接続、WebページでWi-FiアクセスポイントとAzure IoT Centralの接続情報を設定します。  
 > **ここでのReButtonへの接続情報の設定中は、一旦パソコンのインターネット接続が途切れます。**
@@ -238,7 +238,7 @@ ReButtonのAzure IoT Central接続設定画面が表示されます。
 
 ---
 
-### <a name="1-7">ReButton+ : ボタンをクリックしてIoT Centralに通知
+### <a name="1-7">ReButton+ : ボタンをクリックしてIoT Centralに通知</a>
 
 > 設定済みのReButtonデバイステンプレート上で、ボタンのクリック通知(`メッセージ`)が届くことを確認します。
 
@@ -301,7 +301,7 @@ LED(白)になるまで、ボタンを押し続けた場合は、最初の設定
 
 ---
 
-## <a name="2-0">2章 測定項目を増やす
+## <a name="2-0">2章 測定項目を増やす</a>
 
 ### <a name="2-1">IoTC : 測定項目にクリック種類を追加</a>
 
