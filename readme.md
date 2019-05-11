@@ -30,6 +30,29 @@
 
 ## <a name="S-0">タッチアンドトライのゴール</a>
 
+本テキストは、Azureへ簡単にメッセージ送信できるデバイス**Seeed ReButton**と、デバイスを手軽に管理できるクラウドサービス**Azure IoT Central**を使って、IoTシステム構築するタッチアンドトライです。  
+デバイス設定、クラウド設定、クラウドサービス連携の手軽さと、プログラミング可能な柔軟性を体感しましょう。
+
+![61](img/61.png)
+
+使用するデバイスとサービスは、次の通りです。
+
+|品名|ドキュメント|
+|:--|:--|:--|
+|[Seeed ReButton](https://www.seeedstudio.com/ReButton-p-2930.html)|[公式(英語)](https://aka.ms/rebutton), [非公式(日本語)](http://matsujirushi.hatenablog.jp/entry/2019/01/23/171257)|
+|Azure IoT Central|[公式](https://azure.microsoft.com/ja-jp/services/iot-central/)|
+|Azure Monitor|[公式](https://azure.microsoft.com/ja-jp/services/monitor/)|
+|Azure Functions|[公式](https://azure.microsoft.com/ja-jp/services/functions/)|
+
+**1章**は、ReButtonのボタンクリック操作をIoT Centralに通知して、Web画面でボタンクリックを知ることができるようにします。  
+具体的には、IoT Centralにアプリケーションを作成してデバイステンプレートを作成、デバイスを追加した後、ReButtonにWi-Fi接続情報とIoT Centralへのデバイス接続情報を設定します。
+
+**2章**は、IoT CentralのWeb画面で表示する項目を増やします。  
+IoT Centralのデバイステンプレートに、測定項目を追加する簡単な操作だけで、Web画面の表示項目が増えるのを体験します。
+
+**3章**は、ReButtonのボタンクリック操作をIoT Centralを経由してAzure Monitorに通知し、スマートフォンへSMS通知します。  
+IoT Centralのルールという機能を使って、Azure Monitorに通知します。Azure Monitorにはさまざまなオペレーターへの通知方法がありますが、SMS通知を使います。
+
 ## <a name="1-0">1章 ボタンクリックをIoT Centralへ伝える</a>
 
 ### <a name="1-1">IoTC :  アプリケーションを作成</a>
