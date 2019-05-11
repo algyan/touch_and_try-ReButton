@@ -21,6 +21,12 @@
   - [Azure : アクショングループを作成](#3-1)
   - [IoTC : ルールを追加](#3-2)
   - [ReButton+ : ボタンをクリックしてSMS通知](#3-3)
+- [4章 ボタンクリックからコード呼び出し](#4-0)
+  - [Azure : Function Appを作成](#4-1)
+  - [VSCode : ローカルにコードを作成](#4-2)
+  - [VSCode : ローカルのコードをFunction Appに配置](#4-3)
+  - [IoTC : ルールを追加](#4-4)
+  - [VSCode : コードのログをモニタリング](#4-5)
 - [後始末](#F-0)
   - ReButton : 工場出荷時設定にリセット
   - IoTC : アプリケーションを削除
@@ -52,6 +58,8 @@ IoT Centralのデバイステンプレートに、測定項目を追加する簡
 
 **3章**は、ReButtonのボタンクリック操作をIoT Centralを経由してAzure Monitorに通知し、スマートフォンへSMS通知します。  
 IoT Centralのルールという機能を使って、Azure Monitorに通知します。Azure Monitorにはさまざまなオペレーターへの通知方法がありますが、SMS通知を使います。
+
+---
 
 ## <a name="1-0">1章 ボタンクリックをIoT Centralへ伝える</a>
 
@@ -494,6 +502,84 @@ LED(白)になるまで、ボタンを押し続けた場合は、最初の設定
 ![59](img/59.png)
 
 ![60](img/60.png)
+
+---
+
+## <a name="4-0">4章 ボタンクリックからコード呼び出し</a>
+
+### <a name="4-1">Azure : Function Appを作成</a>
+
+![62](img/62.png)
+
+![63](img/63.png)
+
+![64](img/64.png)
+
+---
+
+### <a name="4-2">VSCode : ローカルにコードを作成</a>
+
+![65](img/65.png)
+
+![66](img/66.png)
+
+![67](img/67.png)
+
+![68](img/68.png)
+
+![69](img/69.png)
+
+![70](img/70.png)
+
+![71](img/71.png)
+
+![72](img/72.png)
+
+![73](img/73.png)
+
+![74](img/74.png)
+
+---
+
+### <a name="4-3">VSCode : ローカルのコードをFunction Appに配置</a>
+
+![75](img/75.png)
+
+![76](img/76.png)
+
+![77](img/77.png)
+
+![78](img/78.png)
+
+![79](img/79.png)
+
+![80](img/80.png)
+
+![81](img/81.png)
+
+---
+
+### <a name="4-4">IoTC : ルールを追加</a>
+
+![82](img/82.png)
+
+![83](img/83.png)
+
+![84](img/84.png)
+
+![85](img/85.png)
+
+![86](img/86.png)
+
+![87](img/87.png)
+
+---
+
+### <a name="4-5">VSCode : コードのログをモニタリング</a>
+
+![88](img/88.png)
+
+![89](img/89.png)
 
 ---
 
