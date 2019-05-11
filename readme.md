@@ -38,7 +38,7 @@
 使用するデバイスとサービスは、次の通りです。
 
 |品名|ドキュメント|
-|:--|:--|:--|
+|:--|:--|
 |[Seeed ReButton](https://www.seeedstudio.com/ReButton-p-2930.html)|[公式(英語)](https://aka.ms/rebutton), [非公式(日本語)](http://matsujirushi.hatenablog.jp/entry/2019/01/23/171257)|
 |Azure IoT Central|[公式](https://azure.microsoft.com/ja-jp/services/iot-central/)|
 |Azure Monitor|[公式](https://azure.microsoft.com/ja-jp/services/monitor/)|
