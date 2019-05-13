@@ -59,6 +59,9 @@ IoT Centralのデバイステンプレートに、測定項目を追加する簡
 **3章**は、ReButtonのボタンクリック操作をIoT Centralを経由してAzure Monitorに通知し、スマートフォンへSMS通知します。  
 IoT Centralのルールという機能を使って、Azure Monitorに通知します。Azure Monitorにはさまざまなオペレーターへの通知方法がありますが、SMS通知を使います。
 
+**4章**は、ReButtonのボタンクリック操作をIoT Centralを経由してAzure Functionsに通知します。  
+Azure Functionsへ通知することで、その後の動作をプログラミングによって変更できることを学びます。
+
 ---
 
 ## <a name="1-0">1章 ボタンクリックをIoT Centralへ伝える</a>
