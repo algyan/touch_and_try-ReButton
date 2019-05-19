@@ -606,9 +606,31 @@ Azure IoT Centralのデバイステンプレートの測定画面でのメッセ
 
 ### <a name="4-1">Azure : Function Appを作成</a>
 
+|目標|
+|:--|
+|Azureポータルにサインインして、Azure Function Appサービスの作成準備をします。|
+
+Webブラウザで`https://portal.azure.com`を開いてください。URLを開く際に、Microsoftアカウントでのログイン認証が求められます。  
+**Azure IoT Centralにサインインした時と同じMicrosoftアカウント**を使って、サインインしてください。  
+サインインできたら、①[`+`]をクリックして、②`Marketplaceを検索`に「`function app`」とキーワード入力して、出てきた②`Function App`をクリックしてください。
+
 ![62](img/62.png)
 
+次にFunction App画面で、①`作成`をクリックします。
+
 ![63](img/63.png)
+
+続いて、下表のとおり①～④までを設定していきます。
+
+|項目名|値|備考|
+|:--|:--|:--|
+|①`アプリ名`|==任意==|他に存在しないユニークな名前にしてください|
+|②`サブスクリプション`|==任意==||
+|③`リソースグループ`|==任意==|`新規作成`を選択し、自動で出る`アプリ名`と同一でOKです|
+|④`場所`|米国西部|必ずこれを選択してください|
+
+④までの設定ができましたら、⑤の`作成`をクリックしてください。  
+ここまでで、`Azure Function App`の作成準備完了です。
 
 ![64](img/64.png)
 
@@ -616,7 +638,32 @@ Azure IoT Centralのデバイステンプレートの測定画面でのメッセ
 
 ### <a name="4-2">VSCode : ローカルにコードを作成</a>
 
+|目標|
+|:--|
+|Visual Studio Code(VS Code)を使って、Azure Function AppサービスのWebトリガーを受けるコードを作成します。|
+
+VS Codeを起動し、左端中央の①`Azureマーク`をクリックします。  
+続いて、②`フォルダアイコン(Create New Project...)`をクリックします。  
+ここで表示されるフォルダ選択ダイアログで、新規プロジェクト用に適当なフォルダを準備し、選択します。
+
+> VS Codeのメニューなど画面表示(表示有無、配置)は、それぞれのPCにおける拡張機能(Extensions)のインストール状況で、異なります。  
+> 適宜、読み替えてください。
+
 ![65](img/65.png)
+
+続いて、新規プロジェクトの各項目を下表のとおり①～⑦まで設定していきます。
+
+|項目名|値|備考|
+|:--|:--|:--|
+|①`Select a language for your function project`|C#||
+|②`Select a runtime`|Azure Function v2(.NET Standard)||
+|③`Select a template for your project's first function`|HttpTrigger||
+|④`Provide a function name`|==任意==|HttpTriggerReButton|
+|⑤`Provide a namespace`|==任意==|Company.Function|
+|⑥`AccessRights`|Anonymous||
+|⑦`Select how you would like to open your project`|Open in current window||
+
+最後の⑦の設定を選択すると、プロジェクトの作成が始まります。  
 
 ![66](img/66.png)
 
@@ -632,7 +679,15 @@ Azure IoT Centralのデバイステンプレートの測定画面でのメッセ
 
 ![72](img/72.png)
 
+プロジェクトの作成が完了すると、C#のプログラムコード(ひな形)がエディタで開かれます。  
+ここでも、VS Codeの拡張機能(Extensions)のインストール状況によって、クラスライブラリの依存関係を解決するためのメッセージ(There are unresolved dependencies. Please execute the restore command to continue.)が出る場合があります。  
+この場合は、①`Restore`をクリックすることで、解決できます。  
+> その他、各種の拡張機能（Extensions)インストールを推奨するメッセージが出たりします。  
+> 適宜、メッセージを確認し、処置してください。
+
 ![73](img/73.png)
+
+最後に、①`View`メニューの中の②`Output`(Ctrl+Shift+U)をクリックして、Outputビューを表示させます。
 
 ![74](img/74.png)
 
@@ -684,7 +739,18 @@ Azure IoT Centralのデバイステンプレートの測定画面でのメッセ
 
 ### <a name="F-1">ReButton : 工場出荷時設定にリセット</a>
 
+|目標|
+|:--|
+|今後自分のAzureアカウントに課金されないように、貸出用のReButtonに設定した自分のAzureサービスへの接続情報を、工場出荷時の設定にリセットし、消去します。|
+
+`ReButton`の裏ぶたを取り外してください。  
+裏ぶたはシリコン製なのでグンニャリします。隙間にツメを突っ込んで引っ張り上げれば簡単に外れると思います。  
+外れたら、電池の横にあるジャンパーピンを写真のように、両方のピンに刺さるようにはめて5秒程度待ちます。
+
 ![90](img/90.png)
+
+その後、またジャンパーピンを写真のように、片方だけ刺さるようにはめ直します。  
+これで、`ReButton`の工場出荷時設定へのリセットは完了です。
 
 ![91](img/91.png)
 
