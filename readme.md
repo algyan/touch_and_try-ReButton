@@ -529,7 +529,16 @@ ex) 電話番号が「090-xxxx-abcd」の場合、「90-xxxx-abcd」と入力
 
 ![51](img/51.png)
 
-アクショングループの追加が完了すると、以下のようになります。
+アクショングループの追加が完了すると、以下のようになります。  
+また、SMSで下記のような通知が届きます。
+
+```
+All done. You're in ReButton
+group. Reply 'STOP' to stop all.
+'Disable ReButton' to stop grp.
+'HELP' for info. Msg&data rates
+apply
+```
 
 ![52](img/52.png)
 
@@ -595,6 +604,9 @@ ex) 電話番号が「090-xxxx-abcd」の場合、「90-xxxx-abcd」と入力
 Azure IoT Centralのデバイステンプレートの測定画面でのメッセージ通知の表示と共に、SMS受信デバイスにもメッセージが届きます。  
 このとき、デバイステンプレートの測定画面に表示されるタイミングとSMS受信デバイスにメッセージが届くタイミングは、異なります。  
 またSMS受信デバイスに届くメッセージは、ReButtonのボタンの押し方が違っても、区別されません。
+
+**このSMS通知は10分以上、時間がかかるときがあります。**  
+通知が極端に遅いときは、MSサポートに聞いてください。
 
 ![59](img/59.png)
 
