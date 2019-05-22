@@ -1,5 +1,17 @@
 # タッチアンドトライ ~ ReButton ~
 
+## 謝辞
+
+本テキストは、[ReButton+IoT Central体験『 IoT タッチ＆トライ』@de:code2019](https://algyan.connpass.com/event/130744/)のために、IoT ALGYANコミュニティ([Facebook](https://www.facebook.com/groups/ioytjp/), [twitter](https://twitter.com/IOT_ALGYAN?lang=ja), [connpass](https://connpass.com/dashboard/))の有志が協力して制作しています。
+
+スペシャルサンクス！  
+* [Takashi Matsuoka](https://github.com/matsujirushi)
+* [Yutaka Ohe](https://github.com/y-ohe)
+* [Akira Tateishi](https://github.com/greennote)
+* [Setouch Zukoudan](https://github.com/zukoudan)
+* [tonjiro](https://github.com/tonjiro)
+* [Tatsuhiro Oikawa](https://github.com/tatsu1225)
+
 ---
 
 目次
