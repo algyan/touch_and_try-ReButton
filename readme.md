@@ -639,7 +639,7 @@ Azure IoT Centralのデバイステンプレートの測定画面でのメッセ
 
 |この節での実施概要|
 |:--|
-|Azureポータルにサインインして、Azure Function Appサービスの作成準備をします。|
+|Azureポータルにサインインして、Azure Function Appサービスを作成します。|
 
 Webブラウザで`https://portal.azure.com`を開いてください。URLを開く際に、Microsoftアカウントでのログイン認証が求められます。  
 **Azure IoT Centralにサインインした時と同じMicrosoftアカウント**を使って、サインインしてください。  
@@ -661,7 +661,7 @@ Webブラウザで`https://portal.azure.com`を開いてください。URLを開
 |④`場所`|米国西部|必ずこれを選択してください|
 
 ④までの設定ができましたら、⑤の`作成`をクリックしてください。  
-ここまでで、Azure Function Appの作成準備完了です。
+これで、Azure Function Appの作成が完了です。
 
 ![64](img/64.png)
 
