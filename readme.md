@@ -687,7 +687,7 @@ VS Codeを起動し、左端中央の①`Azureマーク`をクリックします
 |項目名|値|備考|
 |:--|:--|:--|
 |①`Select a language for your function project`|C#||
-|②`Select a runtime`|Azure Function v2(.NET Standard)||
+|②`Select a runtime`|Azure Function v2(.NET Standard)|macOSを使っている場合は表示されません。|
 |③`Select a template for your project's first function`|HttpTrigger||
 |④`Provide a function name`|==任意==|HttpTriggerReButton|
 |⑤`Provide a namespace`|==任意==|Company.Function|
