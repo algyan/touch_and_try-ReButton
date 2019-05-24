@@ -4,7 +4,8 @@
 
 本テキストは、[ReButton+IoT Central体験『 IoT タッチ＆トライ』@de:code2019](https://algyan.connpass.com/event/130744/)のために、IoT ALGYANコミュニティ([Facebook](https://www.facebook.com/groups/ioytjp/), [twitter](https://twitter.com/IOT_ALGYAN?lang=ja), [connpass](https://connpass.com/dashboard/))の有志が協力して制作しています。
 
-スペシャルサンクス！  
+スペシャルサンクス！
+
 * [Takashi Matsuoka](https://github.com/matsujirushi)
 * [Yutaka Ohe](https://github.com/y-ohe)
 * [Akira Tateishi](https://github.com/greennote)
@@ -336,6 +337,7 @@ LEDが青色に点灯するまで押して、青色になったら離す。
 2. 離す→LEDは青色のまま  
 3. 1秒間放置→シングルクリックと判断  
 4. クラウドへ通知しようとし、LEDが点滅します。  
+
 > **最後に赤色に点滅**したときは、クラウドへの通知に失敗しています。  
 > 何度試しても症状が変わらないときは、IoT Centralの設定、Wi-Fi パスワードの設定などを再度ReButtonに設定してください。
 
@@ -552,6 +554,7 @@ Webブラウザで`https://portal.azure.com`を開いてください。URLを開
 ```
 ex) 電話番号が「090-xxxx-abcd」の場合、「90-xxxx-abcd」と入力
 ```
+
 これらの設定が完了したら、最後に④`OK`をクリックし、その後⑤`OK`をクリックします。
 
 ![51](img/51.png)
@@ -601,7 +604,8 @@ Azure IoT Central上で、①`デバイスエクスプローラー`をクリッ�
 
 ![56](img/56.png)
 
-次に、アクションの右の①[`+`]をクリックし、右に表示されるアクションの選択の中から②`Azure Monitor アクション グループ`をクリックします。  
+次に、アクションの右の①[`+`]をクリックし、右に表示されるアクションの選択の中から②`Azure Monitor アクション グループ`をクリックします。
+
 ```
 「②Azure Monitor アクション グループ」は、アクションの選択肢の最後の方にあります。
 　上下スクロールさせて、表示させたうえで、クリックしてください。
@@ -906,7 +910,6 @@ Azureポータルの画面の左端にある、①`リソースグループ`を�
 |(IoT Centralが自動生成)|IOTC|
 |3章 ボタンクリックをSMS通知する/3-1 Azure : アクショングループを作成|Default-ActivityLogAlerts|
 |4章 ボタンクリックからコード呼び出し/4-1 Azure : Function Appを作成|入力したアプリ名から自動生成|
-
 
 ![95](img/95.png)
 
