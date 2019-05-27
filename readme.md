@@ -12,6 +12,7 @@
 * [Setouch Zukoudan](https://github.com/zukoudan)
 * [tonjiro](https://github.com/tonjiro)
 * [Tatsuhiro Oikawa](https://github.com/tatsu1225)
+* [Atomu Hidaka](https://github.com/ahidaka)
 
 ---
 
